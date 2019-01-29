@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class Program
+    class CarAssembler
     {
-        static void Main(string[] args)
-        {
-
-        }
+        CarFactory factory = null;
     }
 }

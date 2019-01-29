@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class Program
+    abstract class CarFactory : Car
     {
-        static void Main(string[] args)
+        public void GetCar()
         {
 
         }

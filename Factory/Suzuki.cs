@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class Program
+    class Suzuki : Car
     {
-        static void Main(string[] args)
-        {
-
-        }
+        private String company;
+        private String model;
+        private int speed;
     }
 }
