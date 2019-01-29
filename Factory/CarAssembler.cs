@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class CarAssembler
+    class CarAssembler : CarFactory
     {
-        CarFactory factory = null;
+        public void AssembleCar()
+        {
+            SuzukiFactory sf = new SuzukiFactory();
+            sf.GetCar();
+        }
     }
 }

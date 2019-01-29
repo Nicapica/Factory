@@ -10,7 +10,7 @@ namespace Factory
     {
         public void GetCar()
         {
-
+            Console.WriteLine(model + speed);
         }
     }
 }

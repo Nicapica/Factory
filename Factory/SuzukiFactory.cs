@@ -16,7 +16,9 @@ namespace Factory
 
         public void GetCar()
         {
-
+            model = "DZIRE";
+            speed = 220;
+            Console.WriteLine("\nModel of suzuki: " + Model + "\nTop speed: " + speed);
         }
     }
 }
