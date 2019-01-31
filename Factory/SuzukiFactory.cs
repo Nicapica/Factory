@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Author: Nicholas Pica
+//FileName: SuzukiFactory.cs
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

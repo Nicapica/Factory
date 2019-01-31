@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Author: Nicholas Pica
+//FileName: CarAssembler.cs
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +10,11 @@ namespace Factory
 {
     class CarAssembler : CarFactory
     {
-        public void AssembleCar()
+        public void AssembleCar(CarFactory factory)
         {
             SuzukiFactory sf = new SuzukiFactory();
             sf.GetCar();
+            Console.WriteLine(model + speed + "this is working");
         }
     }
 }
