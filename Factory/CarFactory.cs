@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    abstract class CarFactory : Car
+    abstract class CarFactory: Car
     {
         public void GetCar()
         {
-            Console.WriteLine(model + speed);
+            Console.WriteLine(model + speed + "this is being used" );
         }
     }
 }

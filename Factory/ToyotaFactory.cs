@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class ToyotaFactory : Car
+    class ToyotaFactory : CarFactory
     {
         public void toyotaFactory(string model, int speed)
         {
