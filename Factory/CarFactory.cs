@@ -8,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    abstract class CarFactory: Car
+    abstract class CarFactory
     {
-        public void GetCar()
-        {
-            Console.WriteLine(model + speed + "this is being used" );
-        }
+        public abstract Car GetCar();
     }
 }

@@ -10,17 +10,17 @@ namespace Factory
 {
     class ToyotaFactory : CarFactory
     {
-        public void toyotaFactory(string model, int speed)
+        public override Car GetCar()
         {
-            model = "Camry";
-            speed = 180;
-        }
-
-        public void GetCar()
-        {
-            model = "Camry";
-            speed = 180;
-            Console.WriteLine("\nModel of toyota: " + Model + "\nTop speed: " + speed);
+            Toyota TCar = new Toyota
+            {
+                model = "",
+                speed = 0
+            };
+            Console.WriteLine("Car Company: " + TCar.company);
+            Console.WriteLine("Model: " + TCar.model);
+            Console.WriteLine("Top Speed: " + TCar.speed);
+            return TCar;
         }
     }
 }

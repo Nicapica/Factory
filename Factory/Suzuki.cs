@@ -10,8 +10,25 @@ namespace Factory
 {
     class Suzuki : Car
     {
-        private String company;
-        private String model;
-        private int speed;
+        private string Company = "Suzuki";
+        private string Model;
+        private int Speed;
+
+        public string company
+        {
+            get { return Company; }
+        }
+
+        public string model
+        {
+            get { return Model; }
+            set { Model = "DZIRE"; }
+        }
+
+        public int speed
+        {
+            get { return Speed; }
+            set { Speed = 220; }
+        }
     }
 }

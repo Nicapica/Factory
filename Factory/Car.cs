@@ -10,26 +10,9 @@ namespace Factory
 {
     abstract class Car
     {
-        public String Company;
-        public String Model = "";
-        public int Speed;
+        public virtual string Company { get; }
+        public virtual string Model { get; set; }
+        public virtual int Speed {get; set;}
 
-            public String company
-        {
-            get { return Company; }
-            set { Company = value; }
-        }
-
-        public String model
-        {
-            get { return Model; }
-            set { Model = value; }
-        }
-
-        public int speed
-        {
-            get { return Speed; }
-            set { Speed = value; }
-        }
     }
 }

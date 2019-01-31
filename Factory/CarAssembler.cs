@@ -8,13 +8,11 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    class CarAssembler : CarFactory
+    class CarAssembler
     {
         public void AssembleCar(CarFactory factory)
         {
-            SuzukiFactory sf = new SuzukiFactory();
-            sf.GetCar();
-            Console.WriteLine(model + speed + "this is working");
+            factory.GetCar();
         }
     }
 }
